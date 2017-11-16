@@ -1,0 +1,39 @@
+
+.footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 30px; 
+    padding-right: 130px;
+    text-align: justify;
+    color: white;
+    font-size: 13px;
+    line-height: 1.7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+h2.title {
+    text-align: center;  
+}
+
+p.contact {
+    text-align: justify;
+}
+
+h3.h3 {
+    text-align: justify;
+}
+
+div.contact {
+    margin: auto; /*por qué no se pone en el centro*/
+    padding-top: 0px;
+    padding-right: 250px;
+    padding-bottom: 5px;
+    padding-left: 250px;
+    display: inline-block;
+}
+
+

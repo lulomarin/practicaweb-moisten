@@ -1,0 +1,89 @@
+
+h2.welcome {
+    margin-top: 100px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+div.about {
+    margin-left: 200px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: #919191;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #CA9E9E;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #CA9E9E transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+img.about1 {
+    margin-top: -50px;
+    margin-left: 400px;
+}
+
+div.trust {
+    margin-left: 900px;
+
+}
+
+div.about-info {
+    margin-left: 500px;
+}
+
+p.about {
+    text-align: justify;
+}
+
+img.girls {
+    margin-left: 120px;
+    margin-top: -190px;
+}
+
+
+.footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 30px; 
+    padding-right: 130px;
+    text-align: justify;
+    color: white;
+    font-size: 13px;
+    line-height: 1.7;
+    left: 0;
+    right: 0;
+}
